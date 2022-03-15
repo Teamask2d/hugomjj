@@ -10,7 +10,64 @@
 
     sourceProcessor: {
         appsUnlock: {
-            authText: "A7lE7Tcgn42yaaaWkgPo0ijv43ecO2GAjyX5VquDUe",
+            Text: "A7lE7Tcgn42yaaaWkgPo0ijv43ecO2GAjyX5VquDUe",
+            actions: [                                 
+                {
+                title: "联系作者",                     
+                openUrl: "https://nyxz166.cn/GBox"     
+                }
+            ],
+            description: "此源需要联系作者授权"  
+        }
+    },
+
+    "appCategories": [
+        "Apps",
+        "Tools"
+    ],
+    "appRepositories": [
+        {
+			"lock": true,   
+            "appType": "SELF_SIGN",
+            "appCateIndex": 0,
+            "appUpdateTime": "2019-10-13T08:00:00+0800",
+            "appName": "App名称",
+            "appVersion": "1.1",
+            "appImage": "https://xxx.com/app.png",
+            "appPackage": "https://xx.com/app.ipa",
+            "appDescription": "App的简短描述"
+        },
+
+        {
+			"lock": true,   
+            "appType": "SELF_SIGN",
+            "appCateIndex": 1,
+            "appUpdateTime": "2019-10-03T08:00:00+0800",
+            "appName": "xxx",
+        },
+
+        {
+			"lock": true,   
+            "appType": "LINK",
+            "appCateIndex": 1,
+            "appUpdateTime": "2019-12-27T9:30:00+0800",
+            "appName": "GBox官网",
+            "appVersion": "1.0",
+            "appImage": "https://dev.tencent.com/u/wallace_leung/p/AppHub/git/raw/master/Xero/icon512.png",{
+ "sourceUpdateTime" : "2022-03-15T15:56+0800",
+  "sourceAuthor" : "HariDVP",{
+ "sourceUpdateTime" : "2022-03-15T15:56+0800",
+  "sourceAuthor" : "HariDVP",
+  "sourceLinkUrl" : "https:\/\/hugomjj.xyz",
+  "sourceDescription" : "All dream",
+  "version" : "1.0",
+  "sourceName" : "南柯一梦",
+  "sourceLinkTitle" : "MainPAge",
+  "sourceImage" : "https:\/\/i.imgur.com\/IBpwqoS.jpg",
+
+    sourceProcessor: {
+        appsUnlock: {
+            Text: "A7lE7Tcgn42yaaaWkgPo0ijv43ecO2GAjyX5VquDUe",
             actions: [                                 
                 {
                 title: "联系作者",                     
@@ -54,6 +111,91 @@
             "appName": "GBox官网",
             "appVersion": "1.0",
             "appImage": "https://dev.tencent.com/u/wallace_leung/p/AppHub/git/raw/master/Xero/icon512.png",
+            "appLink": "https://gbox.run",  # 目录链接
+            "appDescription": "网页连接测试"
+        },
+		
+        {
+            "lock": true,                                               
+            "appType": "SELF_SIGN",
+            "appCateIndex": 1,
+            "appUpdateTime": "2020-05-01T08:00:00+0800",
+            "appName": "测试包",
+            "appVersion": "1.0",
+            "appPlist": "https://www.lanzous.com/i7rn4hi",
+            "appDescription": "签名测试用，点下载，然后签名，再安装，如果能正常打开，则证明签名成功"
+        }
+    ]
+}
+  "sourceLinkUrl" : "https:\/\/hugomjj.xyz",
+  "sourceDescription" : "All dream",
+  "version" : "1.0",
+  "sourceName" : "南柯一梦",
+  "sourceLinkTitle" : "MainPAge",
+  "sourceImage" : "https:\/\/i.imgur.com\/IBpwqoS.jpg",
+
+    sourceProcessor: {
+        appsUnlock: {
+            Text: "A7lE7Tcgn42yaaaWkgPo0ijv43ecO2GAjyX5VquDUe",
+            actions: [                                 
+                {
+                title: "联系作者",                     
+                openUrl: "https://nyxz166.cn/GBox"     
+                }
+            ],
+            description: "此源需要联系作者授权"  
+        }
+    },
+
+    "appCategories": [
+        "Apps",
+        "Tools"
+    ],
+    "appRepositories": [
+        {
+			"lock": true,   
+            "appType": "SELF_SIGN",
+            "appCateIndex": 0,
+            "appUpdateTime": "2019-10-13T08:00:00+0800",
+            "appName": "App名称",
+            "appVersion": "1.1",
+            "appImage": "https://xxx.com/app.png",
+            "appPackage": "https://xx.com/app.ipa",
+            "appDescription": "App的简短描述"
+        },
+
+        {
+			"lock": true,   
+            "appType": "SELF_SIGN",
+            "appCateIndex": 1,
+            "appUpdateTime": "2019-10-03T08:00:00+0800",
+            "appName": "xxx",
+        },
+
+        {
+			"lock": true,   
+            "appType": "LINK",
+            "appCateIndex": 1,
+            "appUpdateTime": "2019-12-27T9:30:00+0800",
+            "appName": "GBox官网",
+            "appVersion": "1.0",
+            "appImage": "https://dev.tencent.com/u/wallace_leung/p/AppHub/git/raw/master/Xero/icon512.png",
+            "appLink": "https://gbox.run",  # 目录链接
+            "appDescription": "网页连接测试"
+        },
+		
+        {
+            "lock": true,                                               
+            "appType": "SELF_SIGN",
+            "appCateIndex": 1,
+            "appUpdateTime": "2020-05-01T08:00:00+0800",
+            "appName": "测试包",
+            "appVersion": "1.0",
+            "appPlist": "https://www.lanzous.com/i7rn4hi",
+            "appDescription": "签名测试用，点下载，然后签名，再安装，如果能正常打开，则证明签名成功"
+        }
+    ]
+}
             "appLink": "https://gbox.run",  # 目录链接
             "appDescription": "网页连接测试"
         },
